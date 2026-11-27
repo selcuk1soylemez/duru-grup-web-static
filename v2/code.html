@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Duru Grup | 1973'ten Beri Kurumsal Tedarik &amp; Dağıtım Gücü</title>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration for Brand Palette -->
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            duru: {
+              red: '#D20A11',      /* CMYK Bayrak Kırmızısı */
+              darkred: '#B1080E',
+              navy: '#001E61',     /* 50. Yıl PNT. 2758 C */
+              darknavy: '#001444',
+              softnavy: '#0A2A7A',
+              cream: '#FCF9F8',
+              slate: '#4B5563',
+              muted: '#6B7280',
+              border: '#E5E7EB'
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'Inter', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
+            serif: ['EB Garamond', 'Cinzel', 'Playfair Display', 'Times New Roman', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Core Styles -->
+<style data-purpose="typography">
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700&display=swap');
+    
+    .font-brand-serif {
+      font-family: 'EB Garamond', 'Cinzel', Georgia, serif;
+      letter-spacing: -0.01em;
+    }
+  </style>
+<style data-purpose="custom-decorations">
+    /* Subtle vertical division line used in corporate prestige style */
+    .koc-divider {
+      width: 2px;
+      height: 36px;
+      background-color: #D20A11;
+      margin: 1.25rem auto;
+    }
+    
+    /* Smooth transitions for interactive elements */
+    .corporate-transition {
+      transition: all 0.25s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased selection:bg-duru-red selection:text-white">
+<!-- BEGIN: TopBar -->
+<aside class="bg-duru-navy text-white text-xs border-b border-white/10 hidden md:block" data-purpose="top-announcement-bar">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-between items-center tracking-wide">
+<div class="flex items-center space-x-3 text-slate-200">
+<span class="inline-block w-2 h-2 rounded-full bg-duru-red animate-pulse"></span>
+<span class="font-medium">1973'ten Beri Kurumsal Tedarik &amp; Dağıtım Gücü</span>
+</div>
+<div class="flex items-center space-x-6 text-slate-300 font-medium">
+<a class="hover:text-white corporate-transition" href="#sektorel-kategoriler">İş Ortakları &amp; Markalar</a>
+<span class="text-white/20">|</span>
+<a class="hover:text-white corporate-transition" href="#katalog">Kurumsal Katalog</a>
+<span class="text-white/20">|</span>
+<a class="hover:text-white corporate-transition" href="#iletisim">İletişim</a>
+<span class="text-white/20">|</span>
+<div class="flex items-center space-x-2 text-white font-semibold">
+<span class="text-white border-b-2 border-duru-red pb-0.5 cursor-pointer">TR</span>
+<span class="text-white/40">/</span>
+<a class="text-slate-400 hover:text-white corporate-transition" href="#">EN</a>
+</div>
+</div>
+</div>
+</aside>
+<!-- END: TopBar -->
+<!-- BEGIN: MainHeader -->
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20 md:h-24">
+<!-- Corporate Logo (Duru Grup 50. Yıl motif) -->
+<a class="flex items-center space-x-3 group py-2" data-purpose="brand-logo" href="#">
+<svg aria-label="Duru Grup Amblem" class="w-10 h-10 md:w-12 md:h-12 text-duru-red transition-transform group-hover:scale-105 duration-300" fill="currentColor" viewbox="0 0 100 100">
+<!-- 3-flame corporate stylization -->
+<path d="M50 8 C46 22, 34 32, 34 46 C34 58, 44 68, 56 68 C48 62, 45 52, 47 43 C49 32, 57 20, 50 8 Z" fill="#D20A11"></path>
+<path d="M57 26 C53 38, 48 48, 50 58 C52 64, 58 70, 65 67 C61 63, 59 55, 60 48 C62 38, 68 31, 57 26 Z" fill="#D20A11"></path>
+<path d="M38 32 C34 42, 31 52, 33 60 C35 66, 40 70, 46 68 C42 63, 40 55, 41 48 C43 40, 46 35, 38 32 Z" fill="#D20A11"></path>
+</svg>
+<div class="flex flex-col">
+<div class="flex items-baseline space-x-1.5">
+<span class="font-serif font-bold text-2xl md:text-3xl text-duru-red tracking-tight leading-none">DURU</span>
+<span class="font-serif italic font-semibold text-xs md:text-sm text-duru-navy tracking-tight">50. yıl</span>
+</div>
+<div class="flex justify-between items-center text-[9px] md:text-[10px] tracking-[0.28em] text-duru-navy font-semibold mt-1">
+<span>GRUP</span>
+<span>1973</span>
+</div>
+</div>
+</a>
+<!-- Desktop Navigation Items -->
+<nav class="hidden xl:flex items-center space-x-6 text-sm font-medium text-slate-800" data-purpose="primary-navigation">
+<div class="relative group py-6">
+<a class="flex items-center space-x-1 group-hover:text-duru-red corporate-transition py-1" href="#tarihce">
+<span>Kurumsal &amp; Tarihçe</span>
+<svg class="w-4 h-4 text-gray-400 group-hover:text-duru-red transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+<!-- Dropdown Menu -->
+<div class="absolute left-0 top-full w-56 bg-white border border-gray-100 shadow-xl rounded-b-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-3">
+<a class="block px-5 py-2.5 text-xs font-medium text-slate-700 hover:bg-gray-50 hover:text-duru-red" href="#tarihce">Hakkımızda &amp; İlkeler</a>
+<a class="block px-5 py-2.5 text-xs font-medium text-slate-700 hover:bg-gray-50 hover:text-duru-red" href="#tarihce">50 Yıllık Kilometre Taşları</a>
+<a class="block px-5 py-2.5 text-xs font-medium text-slate-700 hover:bg-gray-50 hover:text-duru-red" href="#sosyal-sorumluluk">Sosyal Sorumluluk &amp; Kültür</a>
+</div>
+</div>
+<a class="hover:text-duru-red corporate-transition py-1" href="#faaliyetler">Faaliyet Alanları</a>
+<a class="hover:text-duru-red corporate-transition py-1" href="#sektorel-kategoriler">Sektörel Kategoriler</a>
+<a class="hover:text-duru-red corporate-transition py-1" href="#manavgat-depo">Manavgat Akıllı Depo</a>
+<a class="hover:text-duru-red corporate-transition py-1" href="#teknoloji-b2b">Teknoloji (Sanal Depo &amp; ERP)</a>
+<a class="hover:text-duru-red corporate-transition py-1" href="#sosyal-sorumluluk">Sosyal Sorumluluk</a>
+</nav>
+<!-- Header Actions: Search & Prominent B2B Button -->
+<div class="flex items-center space-x-3 md:space-x-4">
+<button aria-label="Arama yap" class="p-2 text-slate-600 hover:text-duru-red hover:bg-gray-100 rounded-full corporate-transition" type="button">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<a class="inline-flex items-center justify-center px-4 md:px-5 py-2.5 text-xs md:text-sm font-semibold text-white bg-duru-red hover:bg-duru-darkred rounded corporate-transition shadow-sm shadow-duru-red/25 gap-1.5" href="#teknoloji-b2b">
+<span>Sanal Depo B2B Giriş</span>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+<!-- Mobile Hamburger Button -->
+<button aria-label="Menüyü aç" class="xl:hidden p-2 text-slate-700 hover:text-duru-red rounded-lg" type="button">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<!-- BEGIN: HeroSection (Brief 3.1: Net, yalın, kurumsal sunum) -->
+<section class="relative bg-duru-darknavy text-white min-h-[560px] lg:min-h-[620px] flex items-center overflow-hidden" data-purpose="hero-carousel">
+<!-- Hero Background Visual Overlay -->
+<div class="absolute inset-0 z-0">
+<img alt="Duru Grup Modern Lojistik ve Antrepo Depolama Merkezi" class="w-full h-full object-cover object-center opacity-35 transform scale-105 transition-transform duration-10000 hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6r0NgOyXw9-6rzh4eKy4f8TMeAvV84fu3Tz9PDp8I89KXc1z1b5ZpD3T1x6stFFFFAFdJWxSik60qKIy2OkXTe2hVXaOH9gtF3yXUCNFqTHD3XuliS1W65ECijI0fX4rSyWjFw_RHfYzEHvt-5hIGlHq9N4MhVgtVJEVs6HzUlT-umREekVKUaD4fu17SvGezpjutZKiRTW5OT5h-sqpNqygKNrk6myUIKrQ7Hx_7"/>
+<!-- Gradient layers mimicking the Koc.com.tr clean lighting -->
+<div class="absolute inset-0 bg-gradient-to-r from-duru-darknavy via-duru-navy/90 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-duru-darknavy via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 w-full">
+<div class="max-w-3xl space-y-6">
+<!-- Pre-title Badge -->
+<div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wider text-white">
+<span class="w-2 h-2 rounded-full bg-duru-red"></span>
+<span>1973 - 2026 • 50 YILLIK KURUMSAL TECRÜBE</span>
+</div>
+<!-- Main Title (Direct & Clear as per Brief 3.1) -->
+<h1 class="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-white leading-tight">
+          TÜRKİYE'NİN 81 İLİNDE KESİNTİSİZ TEDARİK VE AKILLI LOJİSTİK AĞI
+        </h1>
+<!-- Subtitle Description -->
+<p class="text-base sm:text-lg text-slate-200 font-light leading-relaxed max-w-2xl">
+          Modern depolama altyapısı, 500+ özmal dağıtım filosu ve Sanal Depo B2B platformu ile zincir marketler, oteller ve perakende noktalarına uçtan uca kurumsal tedarik gücü.
+        </p>
+<!-- Hero Actions -->
+<div class="pt-4 flex flex-wrap gap-4 items-center">
+<a class="inline-flex items-center justify-center px-7 py-3.5 bg-duru-red text-white text-sm font-semibold rounded hover:bg-duru-darkred corporate-transition shadow-lg shadow-duru-red/30" href="#faaliyetler">
+            Faaliyet Alanlarımızı İnceleyin
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+<a class="inline-flex items-center justify-center px-7 py-3.5 bg-white/10 hover:bg-white hover:text-duru-navy text-white text-sm font-medium border border-white/30 rounded corporate-transition backdrop-blur-sm" href="#teknoloji-b2b">
+            Sanal Depo B2B Platformu
+          </a>
+</div>
+</div>
+<!-- Carousel Pagination & Controls -->
+<div class="mt-12 pt-8 border-t border-white/15 flex items-center justify-between max-w-sm">
+<div class="flex items-center space-x-3 text-xs tracking-widest font-mono text-slate-300">
+<span class="text-white font-bold text-sm">01</span>
+<span class="w-12 h-[2px] bg-duru-red inline-block"></span>
+<span>04</span>
+</div>
+<div class="flex items-center space-x-2">
+<button aria-label="Önceki Slayt" class="w-9 h-9 rounded-full border border-white/30 flex items-center justify-center hover:bg-duru-red hover:border-duru-red corporate-transition">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M15 19l-7-7 7-7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+<button aria-label="Sonraki Slayt" class="w-9 h-9 rounded-full border border-white/30 flex items-center justify-center hover:bg-duru-red hover:border-duru-red corporate-transition">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: References & Brand Partners Strip (Brief 3.2) -->
+<section class="bg-gray-50 border-b border-gray-200 py-6" data-purpose="brand-partners-strip">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4">
+<span class="text-xs uppercase font-bold tracking-wider text-slate-500 whitespace-nowrap">
+        Stratejik Kategori Ortaklıkları:
+      </span>
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 w-full md:w-auto flex-grow max-w-4xl lg:ml-6">
+<div class="bg-white border border-gray-200 rounded px-3 py-2 text-center text-xs font-semibold text-slate-700 hover:border-duru-red corporate-transition">
+        Hızlı Tüketim (FMCG)
+      </div>
+<div class="bg-white border border-gray-200 rounded px-3 py-2 text-center text-xs font-semibold text-slate-700 hover:border-duru-red corporate-transition">
+        İçecek Grubu &amp; Soğuk Dağıtım
+      </div>
+<div class="bg-white border border-gray-200 rounded px-3 py-2 text-center text-xs font-semibold text-slate-700 hover:border-duru-red corporate-transition">
+        Eczane &amp; Itriyat Zinciri
+      </div>
+<div class="bg-white border border-gray-200 rounded px-3 py-2 text-center text-xs font-semibold text-slate-700 hover:border-duru-red corporate-transition">
+        Kozmetik &amp; Kişisel Bakım
+      </div>
+<div class="bg-white border border-gray-200 rounded px-3 py-2 text-center text-xs font-semibold text-slate-700 hover:border-duru-red corporate-transition col-span-2 sm:col-span-1">
+        Ulusal Zincir Marketler
+      </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: References & Brand Partners Strip -->
+<!-- BEGIN: OperationalPowerSection (Brief 5, 7.1, 7.3 - Replacing 'Medya Merkezi') -->
+<section class="py-20 lg:py-24 bg-white border-b border-gray-100" data-purpose="operational-power" id="faaliyetler">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Title Header with Divider -->
+<div class="text-center max-w-3xl mx-auto mb-14">
+<h2 class="text-3xl md:text-4xl font-serif font-bold text-slate-900 tracking-tight uppercase">
+        OPERASYONEL VE TEKNOLOJİK GÜCÜMÜZ
+      </h2>
+<p class="mt-3 text-slate-600 text-sm md:text-base">
+        Akdeniz'in en modern lojistik altyapısı ve uçtan uca dijital sipariş entegrasyonu.
+      </p>
+<div class="koc-divider"></div>
+</div>
+<!-- 3-Column News/Spotlight Card Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1: Manavgat Akıllı Depo (Brief 7.3) -->
+<article class="group flex flex-col h-full bg-white rounded-lg overflow-hidden border border-gray-100 hover:border-gray-200 hover:shadow-lg corporate-transition" id="manavgat-depo">
+<div class="relative h-56 overflow-hidden bg-gray-100">
+<img alt="Akdeniz Manavgat Akıllı Lojistik ve Depo Üssü" class="w-full h-full object-cover group-hover:scale-105 corporate-transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXC5NsaXiwSu6215bSTa8h2gqtyJ-YO28GmHQxFV40Pnl33AHaL59ZUIA55lKTLhp-dN8KZkhS-TxIijPWCapfV2U7XUYgLxVJ3gqS_jb2lXoCzMpodKHStK_dWj4clYSjlAK9tt3WW7DQTCZCw_MMH6zv9ajygEnyUX-fnQ2tDxTmVNTZRl1YHDwlqLkPbF7O2R9znFvQxdeZXq5_Jva-icHrdcvgReldlYMe9Kl9"/>
+<span class="absolute top-4 left-4 bg-duru-navy text-white text-[11px] font-semibold px-2.5 py-1 rounded shadow">
+            Lojistik &amp; Antrepo
+          </span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="text-xs font-semibold text-slate-400">Stratejik Dağıtım Merkezi</span>
+<h3 class="mt-2 text-base md:text-lg font-bold text-duru-red group-hover:text-duru-darkred corporate-transition leading-snug">
+              Manavgat Akıllı Lojistik &amp; Depo Üssü
+            </h3>
+<p class="mt-2.5 text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              Akdeniz bölgesinde otel, restoran ve perakende zincirlerine hizmet veren iklimlendirmeli ve akıllı otomasyonlu merkez. Kesintisiz soğuk zincir ve anlık sevkiyat kontrolü.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-gray-100">
+<a class="inline-flex items-center text-xs font-semibold text-duru-red group-hover:underline" href="#manavgat-depo">
+              Detayları İncele
+              <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-1 corporate-transition" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 2: Sanal Depo B2B & Panorama ERP (Brief 7.1 & 7.2) -->
+<article class="group flex flex-col h-full bg-white rounded-lg overflow-hidden border border-gray-100 hover:border-gray-200 hover:shadow-lg corporate-transition">
+<div class="relative h-56 overflow-hidden bg-gray-100">
+<img alt="Sanal Depo B2B ve Panorama ERP Entegrasyonu" class="w-full h-full object-cover group-hover:scale-105 corporate-transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGKQ79JZd2HUzhGerRLRTvtc2u5urMt85iw63gcwwj1Aeur_iwyg53ut1Iyb-PjNHDbIoimy6_UBqypzcXoaIkvdwlbuweTHivpXVdUJS4h6WFeSPWoF6qu7OihbKXqHsdvMGvjRuks5AUCTA0jQ31Ci7O9WnJ9S3jn10hPlf561FuT-rqGUxCgu-SH1THuYzp6ruho52VGV3WgyehwVY3BPgOZqjZyMMF633JSbd3"/>
+<span class="absolute top-4 left-4 bg-duru-navy text-white text-[11px] font-semibold px-2.5 py-1 rounded shadow">
+            Dijital B2B &amp; ERP
+          </span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="text-xs font-semibold text-slate-400">Kurumsal Entegrasyon</span>
+<h3 class="mt-2 text-base md:text-lg font-bold text-duru-red group-hover:text-duru-darkred corporate-transition leading-snug">
+              Sanal Depo B2B &amp; Panorama ERP Entegrasyonu
+            </h3>
+<p class="mt-2.5 text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              İş ortaklarımızın anlık stok kontrolü, sipariş planlama ve sevkiyat takibini tek platformda yönettiği dijital sistem. Sıfır hata ile hatasız cari ve teslimat yönetimi.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-gray-100">
+<a class="inline-flex items-center text-xs font-semibold text-duru-red group-hover:underline" href="#teknoloji-b2b">
+              Detayları İncele
+              <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-1 corporate-transition" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+</div>
+</div>
+</article>
+<!-- Card 3: Kurumsal Kültür & 50. Yıl Tarihçe (Brief 5) -->
+<article class="group flex flex-col h-full bg-white rounded-lg overflow-hidden border border-gray-100 hover:border-gray-200 hover:shadow-lg corporate-transition" id="tarihce">
+<div class="relative h-56 overflow-hidden bg-gray-100">
+<img alt="Duru Grup 50. Yıl Kurumsal Galası ve Tarihçesi" class="w-full h-full object-cover group-hover:scale-105 corporate-transition duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5atl2OVMNFzXVeLJii5qaN7EL-eSFPk5y6OSoUN_A5SQXWxfMwBatDMzs15JSnbXj0HFTlgxFL3OaroL41F6QMQZYk0OyDlgPshGbtYcLnA8zFrk6o-9VFtGKJjWHtAU_8DjtVlL8WTiDI07khtoWVL7gxvGLyx5obb2SwMYFfJni-m7cmdg1HWEC5elXIjyitLwyYkNQHo9MSKZnThs6AcvwWDalH77UfeGzLx-O"/>
+<span class="absolute top-4 left-4 bg-duru-red text-white text-[11px] font-semibold px-2.5 py-1 rounded shadow">
+            50. Yıl Gururu
+          </span>
+</div>
+<div class="p-6 flex flex-col flex-grow justify-between">
+<div>
+<span class="text-xs font-semibold text-slate-400">1973 - 2026 Köklü Miras</span>
+<h3 class="mt-2 text-base md:text-lg font-bold text-duru-red group-hover:text-duru-darkred corporate-transition leading-snug">
+              Yarım Asırlık Kurumsal Tecrübe &amp; Etkinlikler
+            </h3>
+<p class="mt-2.5 text-xs text-slate-600 line-clamp-3 leading-relaxed">
+              1973'ten bugüne uzanan dönüm noktaları, 50. yıl kurumsal galası ve güçlü çalışan bağlılığı. Yarım asırlık güvenilir tedarik geçmişiyle sektöre öncülük ediyoruz.
+            </p>
+</div>
+<div class="mt-6 pt-4 border-t border-gray-100">
+<a class="inline-flex items-center text-xs font-semibold text-duru-red group-hover:underline" href="#tarihce">
+              Detayları İncele
+              <svg class="w-3.5 h-3.5 ml-1 transform group-hover:translate-x-1 corporate-transition" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+</div>
+</div>
+</article>
+</div>
+<!-- Lower Navigation Bar -->
+<div class="mt-14 flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 border-t border-gray-100">
+<a class="px-8 py-3 bg-duru-red text-white text-xs md:text-sm font-semibold rounded hover:bg-duru-darkred corporate-transition shadow-sm" href="#faaliyetler">
+          Tüm Faaliyetleri Görüntüle
+        </a>
+<div class="flex flex-wrap items-center justify-center gap-6 text-xs md:text-sm font-medium text-slate-700">
+<a class="inline-flex items-center hover:text-duru-red corporate-transition" href="#">
+<svg class="w-4 h-4 mr-2 text-duru-red" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+          Faaliyet Raporu <span class="ml-1 text-slate-400">→</span>
+</a>
+<a class="inline-flex items-center hover:text-duru-red corporate-transition" href="#">
+<svg class="w-4 h-4 mr-2 text-duru-navy" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+          Kurumsal Sunum <span class="ml-1 text-slate-400">→</span>
+</a>
+<a class="inline-flex items-center hover:text-duru-red corporate-transition" href="#">
+<svg class="w-4 h-4 mr-2 text-duru-red" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+          Tüm Hizmetler <span class="ml-1 text-slate-400">→</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- END: OperationalPowerSection -->
+<!-- BEGIN: AsymmetricSection (Brief 4, 6 & 7.1 - Replacing 'Yatırımcı İlişkileri') -->
+<section class="py-20 bg-slate-50 border-b border-gray-200" data-purpose="sectors-and-b2b" id="sektorel-kategoriler">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Title -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<h2 class="text-3xl md:text-4xl font-serif font-bold text-slate-900 tracking-tight uppercase">
+        SEKTÖREL KATEGORİLER VE İŞ ORTAKLARIMIZ
+      </h2>
+<p class="mt-3 text-slate-600 text-sm md:text-base leading-relaxed">
+        Geniş ürün gamı, hassas depolama standartları ve Türkiye genelindeki kurumsal dağıtım ağı ile değer üretiyoruz.
+      </p>
+<div class="koc-divider"></div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
+<!-- Left Column: Sektörel Kategoriler (Brief 6.1 & 6.2) -->
+<div class="lg:col-span-6 bg-white p-8 md:p-10 rounded-xl border border-gray-200 shadow-sm flex flex-col justify-between">
+<div class="space-y-6">
+<span class="text-xs font-bold tracking-widest text-duru-red uppercase">Kategori Dağılımı &amp; Uzmanlık</span>
+<h3 class="text-2xl md:text-3xl font-serif font-bold text-slate-900 leading-snug">
+            Kapsamlı Tedarik &amp; Kategori Yönetimi
+          </h3>
+<p class="text-slate-600 text-sm leading-relaxed">
+            Duru Grup, Türkiye'nin lider perakende noktaları, oteller ve yerel işletmeleri için soğuk zincirden hassas kozmetik ürünlerine kadar her kategoride sertifikalı lojistik çözümleri sunar.
+          </p>
+<!-- 4 Sektörel Kategori Maddesi (Brief 6.1) -->
+<div class="space-y-4 pt-2">
+<div class="border-l-4 border-duru-red pl-4 py-1">
+<h4 class="text-sm font-bold text-slate-900">İçecek Grubu</h4>
+<p class="text-xs text-slate-600 mt-0.5">Soğuk zincir ve hızlı tüketim dağıtımı, ısı kontrollü araç filosu ve zincir market teslimatları.</p>
+</div>
+<div class="border-l-4 border-duru-navy pl-4 py-1">
+<h4 class="text-sm font-bold text-slate-900">Itriyat ve Kişisel Bakım</h4>
+<p class="text-xs text-slate-600 mt-0.5">Eczane ve parfümeri zincirlerine hijyenik teslimat, barkodlu izlenebilirlik ve hassas stok kontrolü.</p>
+</div>
+<div class="border-l-4 border-duru-red pl-4 py-1">
+<h4 class="text-sm font-bold text-slate-900">Kozmetik</h4>
+<p class="text-xs text-slate-600 mt-0.5">Hassas iklimlendirmeli depolama ve raf standartlarına tam uygunluk, katma değerli paketleme.</p>
+</div>
+<div class="border-l-4 border-duru-navy pl-4 py-1">
+<h4 class="text-sm font-bold text-slate-900">İthal Deniz Malzemeleri</h4>
+<p class="text-xs text-slate-600 mt-0.5">Antrepo, teknik malzeme ve marin tedarik çözümleri ile marinalara doğrudan hızlı lojistik.</p>
+</div>
+</div>
+</div>
+<div class="mt-8 pt-6 border-t border-gray-100 flex items-center justify-between">
+<span class="text-xs font-semibold text-slate-500">81 İl, 20.000+ Noktaya Ulaşım</span>
+<a class="inline-flex items-center text-xs font-bold text-duru-red hover:underline" href="#katalog">
+            Kategori Kataloğunu İndir →
+          </a>
+</div>
+</div>
+<!-- Right Column: Dijital Sipariş & Sanal Depo B2B (Brief 7.1) -->
+<div class="lg:col-span-6 bg-duru-navy text-white p-8 md:p-10 rounded-xl shadow-lg flex flex-col justify-between relative overflow-hidden" id="teknoloji-b2b">
+<!-- Background Subtle Emblem Watermark -->
+<div class="absolute -right-12 -bottom-12 opacity-5 pointer-events-none">
+<svg class="w-72 h-72 text-white" fill="currentColor" viewbox="0 0 100 100">
+<path d="M50 8 C46 22, 34 32, 34 46 C34 58, 44 68, 56 68 C48 62, 45 52, 47 43 C49 32, 57 20, 50 8 Z"></path>
+</svg>
+</div>
+<div>
+<span class="text-xs uppercase font-bold tracking-widest text-red-300">B2B Tedarik Altyapısı</span>
+<h3 class="text-2xl font-serif font-bold text-white mt-2 mb-6 border-b border-white/10 pb-4">
+            DİJİTAL SİPARİŞ &amp; SANAL DEPO B2B
+          </h3>
+<p class="text-xs md:text-sm text-slate-200 leading-relaxed mb-8">
+            Duru Grup iş ortakları ve bayileri, modern web ve mobil arayüzü sayesinde siparişlerini anlık olarak sisteme iletir; stok hareketlerini ve sevkiyat durumunu anbean takip eder.
+          </p>
+<!-- 3 Features as required by Brief 7.1 -->
+<div class="space-y-5">
+<div class="flex items-start space-x-3.5 bg-white/5 p-3.5 rounded border border-white/10">
+<div class="p-2 bg-duru-red rounded text-white shrink-0 mt-0.5">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h4 class="text-sm font-semibold text-white">24/7 Çevrimiçi Bayi Siparişi</h4>
+<p class="text-xs text-slate-300 mt-1">Zaman ve mekandan bağımsız, hızlı sepet oluşturma ve anında teyit mekanizması.</p>
+</div>
+</div>
+<div class="flex items-start space-x-3.5 bg-white/5 p-3.5 rounded border border-white/10">
+<div class="p-2 bg-duru-red rounded text-white shrink-0 mt-0.5">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h4 class="text-sm font-semibold text-white">Panorama ERP ile Sıfır Hata Senkronizasyonu</h4>
+<p class="text-xs text-slate-300 mt-1">Depo barkod sistemleri, el terminalleri ve faturalama süreçleriyle çift yönlü tam entegrasyon.</p>
+</div>
+</div>
+<div class="flex items-start space-x-3.5 bg-white/5 p-3.5 rounded border border-white/10">
+<div class="p-2 bg-duru-red rounded text-white shrink-0 mt-0.5">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</div>
+<div>
+<h4 class="text-sm font-semibold text-white">Şeffaf Stok ve Cari Takip</h4>
+<p class="text-xs text-slate-300 mt-1">Anlık bakiye, tahsilat durumu, geçmiş faturalar ve sevkiyat rotalarının şeffaf izlenmesi.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Button -->
+<div class="mt-8 pt-6 border-t border-white/10 flex items-center justify-between">
+<a class="inline-flex items-center px-6 py-3 bg-duru-red hover:bg-duru-darkred text-white text-xs md:text-sm font-semibold rounded corporate-transition shadow-lg" href="#teknoloji-b2b">
+<span>Sanal Depo Portalına Git</span>
+<svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+<span class="text-[11px] text-slate-300 font-mono">B2B.DURUGRUP.COM</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: AsymmetricSection -->
+<!-- BEGIN: CultureAndResponsibilitySection (Brief 5.3 & 8 - Replacing 'Duru Grup'ta Hayat') -->
+<section class="relative overflow-hidden bg-duru-red text-white" data-purpose="culture-and-responsibility" id="sosyal-sorumluluk">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<!-- Left Side: Red Content Area (Brief 5.3 & 8) -->
+<div class="lg:col-span-6 py-16 md:py-24 pr-0 lg:pr-12 space-y-6">
+<span class="text-xs uppercase font-bold tracking-widest text-red-200">Değer Odaklı Yönetim</span>
+<h2 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight uppercase">
+            KURUM KÜLTÜRÜ VE SOSYAL SORUMLULUK
+          </h2>
+<p class="text-white/95 text-sm sm:text-base leading-relaxed font-light">
+            50 yıllık başarımızın odağında insan kaynağımız ve topluma değer katan sosyal sorumluluk projelerimiz yer alıyor. Staj programları, şirket futbol takımı ve kurumsal organizasyonlarımızla geleceğe güvenle yürüyoruz.
+          </p>
+<div class="pt-4 flex flex-wrap gap-4">
+<a class="inline-flex items-center px-7 py-3.5 bg-white text-duru-red hover:bg-gray-100 text-sm font-semibold rounded corporate-transition shadow-lg" href="#sosyal-sorumluluk">
+            Kültür &amp; Etkinliklerimiz
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+</a>
+</div>
+</div>
+<!-- Right Side: Employee Focus Card with Image -->
+<div class="lg:col-span-6 py-8 lg:py-16">
+<div class="bg-white rounded-lg shadow-2xl overflow-hidden text-slate-800">
+<div class="relative h-64 sm:h-72">
+<img alt="Duru Grup Çalışanı ve Akademi Programı" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADaJb5cforxPBVhyj-lIhihkyf0XNqpagdS9QTYTV6aiuP8btg4-wBpD7PhkTCkriACT-i3jycTtorDf20_50ieSml28gV5lIjHf_Jjt4NJJ_VqvDAYdsu2Tr28bbrjarxuPpn3Rr6-CJIqC2TMMTOtc8LUE6mxDNe9UELGMTU0FwdmHJD-iFN-uz8nS3-GXgquq-_B6CGMs-pVuRhioGVyU2PkVcbN2TpbzWPhJL-"/>
+<div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/85 to-transparent p-6 text-white">
+<span class="text-xs font-mono text-slate-300">#DuruGrupAilesi</span>
+<h3 class="text-lg font-bold">50 Yıllık Değer: Duru Akademi &amp; Genç Yetenekler</h3>
+</div>
+</div>
+<div class="p-6 md:p-8 space-y-4">
+<blockquote class="italic text-xs md:text-sm text-slate-600 leading-relaxed border-l-4 border-duru-red pl-4">
+            "Yarım asırlık tecrübenin getirdiği güven, genç yeteneklere sunduğumuz staj programları ve sosyal dayanışma projelerimizle her geçen gün büyüyen güçlü bir aileyiz."
+          </blockquote>
+<div class="flex items-center justify-between pt-2">
+<span class="text-xs font-bold text-duru-navy">Duru Akademi, Staj &amp; Spor Kulübü</span>
+<a class="text-xs font-semibold text-duru-red hover:underline" href="#sosyal-sorumluluk">Program Detayları →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: CultureAndResponsibilitySection -->
+<!-- BEGIN: StatisticsSection (Brief 4 - Replacing 'Koç Güncel') -->
+<section class="py-20 bg-slate-900 text-white" data-purpose="distribution-metrics">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-3xl md:text-4xl font-serif font-bold text-white tracking-tight uppercase">
+        ÖLÇÜLEBİLİR DAĞITIM VE OPERASYON GÜCÜMÜZ
+      </h2>
+<p class="mt-3 text-slate-400 text-sm md:text-base">
+        Başarılarımız ve öncülük ettiğimiz sektördeki dev operasyonel gücümüzün sayısal göstergeleri.
+      </p>
+<div class="w-10 h-0.5 bg-duru-red mx-auto mt-4"></div>
+</div>
+<!-- 5 Metric Boxes in Strict Corporate Brand Colors -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6">
+<!-- Box 1 (Kurumsal Lacivert): 8.500+ Bakkal ve Yerel Market -->
+<div class="bg-duru-navy p-6 md:p-8 rounded-lg flex flex-col justify-between border-t-4 border-white/40 shadow-lg">
+<div class="text-slate-300 mb-6">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg>
+</div>
+<div>
+<div class="text-3xl sm:text-4xl font-extrabold tracking-tight font-sans text-white">8.500+</div>
+<p class="text-xs text-slate-200 mt-2 font-medium leading-relaxed">
+            Bakkal ve Yerel Market noktasına düzenli ürün ikmali
+          </p>
+</div>
+</div>
+<!-- Box 2 (Bayrak Kırmızısı): 1.200+ Otel & Turizm Tesisi -->
+<div class="bg-duru-red p-6 md:p-8 rounded-lg flex flex-col justify-between border-t-4 border-white/40 shadow-lg">
+<div class="text-white mb-6">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg>
+</div>
+<div>
+<div class="text-3xl sm:text-4xl font-extrabold tracking-tight font-sans text-white">1.200+</div>
+<p class="text-xs text-red-100 mt-2 font-medium leading-relaxed">
+            Otel &amp; Turizm Tesisi için kesintisiz kurumsal tedarik
+          </p>
+</div>
+</div>
+<!-- Box 3 (Kurumsal Lacivert): 2.400+ Restoran & Horeca Noktası -->
+<div class="bg-duru-navy p-6 md:p-8 rounded-lg flex flex-col justify-between border-t-4 border-white/40 shadow-lg">
+<div class="text-slate-300 mb-6">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9V9a2 2 0 00-2-2h-8a2 2 0 00-2 2v3h12z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg>
+</div>
+<div>
+<div class="text-3xl sm:text-4xl font-extrabold tracking-tight font-sans text-white">2.400+</div>
+<p class="text-xs text-slate-200 mt-2 font-medium leading-relaxed">
+            Restoran &amp; Horeca Noktasına soğuk ve kuru gıda servisi
+          </p>
+</div>
+</div>
+<!-- Box 4 (Bayrak Kırmızısı): 120.000 m² Modern & Akıllı Depolama -->
+<div class="bg-duru-red p-6 md:p-8 rounded-lg flex flex-col justify-between border-t-4 border-white/40 shadow-lg">
+<div class="text-white mb-6">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg>
+</div>
+<div>
+<div class="text-3xl sm:text-4xl font-extrabold tracking-tight font-sans text-white">120.000 m²</div>
+<p class="text-xs text-red-100 mt-2 font-medium leading-relaxed">
+            Modern &amp; Akıllı Depolama ve gümrüklü antrepo alanı
+          </p>
+</div>
+</div>
+<!-- Box 5 (Kurumsal Lacivert): 81 İl / 500+ Araç Kesintisiz Özmal Filo -->
+<div class="bg-duru-navy p-6 md:p-8 rounded-lg flex flex-col justify-between border-t-4 border-white/40 shadow-lg">
+<div class="text-slate-300 mb-6">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path><path d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"></path></svg>
+</div>
+<div>
+<div class="text-3xl sm:text-4xl font-extrabold tracking-tight font-sans text-white">81 İl / 500+</div>
+<p class="text-xs text-slate-200 mt-2 font-medium leading-relaxed">
+            Kesintisiz Özmal Filo ile Türkiye geneli tam zamanında teslimat
+          </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: StatisticsSection -->
+<!-- BEGIN: NewsletterSection -->
+<section class="py-16 bg-duru-red text-white relative" data-purpose="newsletter">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-2xl sm:text-3xl font-serif font-bold tracking-tight">
+        Duru Grup Kurumsal Bültenine Abone Olun
+      </h2>
+<p class="mt-3 text-red-100 text-xs sm:text-sm max-w-xl mx-auto">
+        Sektörel gelişmeler ve lojistik yeniliklerimizden haberdar olun.
+      </p>
+<form class="mt-8 max-w-xl mx-auto" onsubmit="event.preventDefault();">
+<div class="flex flex-col sm:flex-row gap-3">
+<input class="w-full px-5 py-3.5 rounded text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-duru-navy border-none" placeholder="Kurumsal E-posta Adresiniz" required="" type="email"/>
+<button class="px-8 py-3.5 bg-duru-navy hover:bg-duru-darknavy text-white text-sm font-semibold rounded corporate-transition shadow-md whitespace-nowrap" type="submit">
+            Kayıt Ol
+          </button>
+</div>
+<!-- KVKK Consent Checkbox -->
+<div class="mt-4 flex items-start text-left text-[11px] text-red-100">
+<input class="mt-0.5 rounded border-white/40 text-duru-navy focus:ring-white bg-white/20" id="kvkk-onay" required="" type="checkbox"/>
+<label class="ml-2" for="kvkk-onay">
+<a class="underline font-semibold hover:text-white" href="#">KVKK Aydınlatma Metni</a>'ni okudum, ticari elektronik ileti ve bülten gönderilmesini onaylıyorum.
+          </label>
+</div>
+</form>
+</div>
+</section>
+<!-- END: NewsletterSection -->
+<!-- BEGIN: MainFooter -->
+<footer class="bg-gray-100 text-slate-600 border-t border-gray-200" data-purpose="corporate-footer" id="iletisim">
+<!-- Top Horizontal Quick Links -->
+<div class="border-b border-gray-200 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+<div class="flex flex-wrap items-center justify-between text-xs font-semibold text-slate-700 gap-4">
+<span class="text-duru-red tracking-wider uppercase">İlgili Bağlantılar:</span>
+<a class="hover:text-duru-red corporate-transition" href="#tarihce">Kurumsal &amp; Tarihçe</a>
+<a class="hover:text-duru-red corporate-transition" href="#faaliyetler">Faaliyet Alanlarımız</a>
+<a class="hover:text-duru-red corporate-transition" href="#sektorel-kategoriler">Sektörel Kategoriler</a>
+<a class="hover:text-duru-red corporate-transition" href="#manavgat-depo">Manavgat Akıllı Depo</a>
+<a class="hover:text-duru-red corporate-transition" href="#teknoloji-b2b">Sanal Depo B2B Giriş</a>
+<a class="hover:text-duru-red corporate-transition" href="#sosyal-sorumluluk">Sosyal Sorumluluk</a>
+</div>
+</div>
+</div>
+<!-- Main 4-Column Footer Content -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
+<!-- Column 1: Brand Info & Social -->
+<div class="lg:col-span-4 space-y-6">
+<div class="flex items-center space-x-3">
+<svg class="w-8 h-8 text-duru-red" fill="currentColor" viewbox="0 0 100 100">
+<path d="M50 8 C46 22, 34 32, 34 46 C34 58, 44 68, 56 68 C48 62, 45 52, 47 43 C49 32, 57 20, 50 8 Z"></path>
+</svg>
+<div>
+<div class="flex items-baseline space-x-1">
+<span class="font-serif font-bold text-xl text-duru-red leading-none">DURU</span>
+<span class="font-serif italic font-semibold text-xs text-duru-navy">50. yıl</span>
+</div>
+<span class="text-[9px] tracking-[0.25em] text-duru-navy font-bold block mt-0.5">GRUP • 1973</span>
+</div>
+</div>
+<p class="text-xs text-slate-500 leading-relaxed">
+            1973'ten bugüne Türkiye'nin en büyük ulusal dağıtım, soğuk zincir, entegre antrepo depolama ve Sanal Depo B2B operasyonlarını yöneten köklü kuruluş.
+          </p>
+<!-- Social Icons -->
+<div class="flex space-x-3 pt-2">
+<a aria-label="LinkedIn" class="w-8 h-8 rounded-full bg-white border border-gray-300 flex items-center justify-center text-slate-700 hover:text-white hover:bg-duru-navy corporate-transition text-xs" href="#">
+              in
+            </a>
+<a aria-label="X (Twitter)" class="w-8 h-8 rounded-full bg-white border border-gray-300 flex items-center justify-center text-slate-700 hover:text-white hover:bg-slate-900 corporate-transition text-xs" href="#">
+              𝕏
+            </a>
+<a aria-label="YouTube" class="w-8 h-8 rounded-full bg-white border border-gray-300 flex items-center justify-center text-slate-700 hover:text-white hover:bg-duru-red corporate-transition text-xs" href="#">
+              yt
+            </a>
+</div>
+</div>
+<!-- Column 2: Kurumsal & Tarihçe -->
+<div class="lg:col-span-2 space-y-4">
+<h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-gray-200 pb-2">
+            Kurumsal
+          </h4>
+<ul class="space-y-2.5 text-xs">
+<li><a class="hover:text-duru-red corporate-transition" href="#tarihce">Hakkımızda</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#tarihce">50 Yıllık Tarihçe</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#tarihce">İlkeler &amp; Değerler</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#sosyal-sorumluluk">Duru Akademi</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#sosyal-sorumluluk">Sosyal Sorumluluk</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#">Kariyer Fırsatları</a></li>
+</ul>
+</div>
+<!-- Column 3: Faaliyet & Teknolojiler -->
+<div class="lg:col-span-3 space-y-4">
+<h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-gray-200 pb-2">
+            Faaliyet &amp; Teknoloji
+          </h4>
+<ul class="space-y-2.5 text-xs">
+<li><a class="hover:text-duru-red corporate-transition" href="#manavgat-depo">Manavgat Akıllı Lojistik Depo</a></li>
+<li><a class="hover:text-duru-red corporate-transition font-medium text-duru-navy" href="#teknoloji-b2b">Sanal Depo B2B Portalı</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#teknoloji-b2b">Panorama ERP Entegrasyonu</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#sektorel-kategoriler">Hızlı Tüketim &amp; İçecek Grubu</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#sektorel-kategoriler">Eczane, Itriyat &amp; Kozmetik</a></li>
+<li><a class="hover:text-duru-red corporate-transition" href="#sektorel-kategoriler">İthal Deniz Malzemeleri</a></li>
+</ul>
+</div>
+<!-- Column 4: İletişim & Merkezler -->
+<div class="lg:col-span-3 space-y-4">
+<h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 border-b border-gray-200 pb-2">
+            İletişim &amp; Merkezler
+          </h4>
+<div class="text-xs space-y-3 leading-relaxed text-slate-500">
+<p>
+<strong class="text-slate-800">Genel Merkez:</strong><br/>
+              Duru Plaza, Maslak Mah. Büyükdere Cad. No: 120 Sarıyer / İstanbul
+            </p>
+<p>
+<strong class="text-slate-800">Manavgat Akıllı Lojistik Kampüsü:</strong><br/>
+              Sorgun Mah. Titreyengöl Cad. No: 42 Manavgat / Antalya
+            </p>
+<p>
+<strong class="text-slate-800">Marmara Lojistik Üssü:</strong><br/>
+              Gebze Organize Sanayi Bölgesi (GOSB) Kocaeli
+            </p>
+<p class="pt-1">
+<span class="block"><strong>Tel:</strong> +90 (216) 444 00 50</span>
+<span class="block"><strong>E-Posta:</strong> info@durugrup.com.tr</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Copyright & Legal Sub-bar -->
+<div class="border-t border-gray-200 bg-gray-50 text-[11px] text-slate-500 py-6">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+<div>
+          © 2026 Duru Grup Tedarik ve Dağıtım A.Ş. Tüm hakları saklıdır.
+        </div>
+<div class="flex flex-wrap items-center space-x-4">
+<a class="hover:text-duru-red corporate-transition" href="#">Çerez Tercihleri</a>
+<span>•</span>
+<a class="hover:text-duru-red corporate-transition" href="#">Kişisel Verilerin Korunması (KVKK)</a>
+<span>•</span>
+<a class="hover:text-duru-red corporate-transition" href="#">Bilgi Toplumu Hizmetleri</a>
+<span>•</span>
+<a class="hover:text-duru-red corporate-transition" href="#">Etik Bildirim Hattı</a>
+<span>•</span>
+<a class="hover:text-duru-red corporate-transition" href="#iletisim">İletişim</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+</body></html>
